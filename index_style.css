@@ -1,0 +1,98 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  margin: 0px;
+  padding: 0px;
+  border: 3px solid rgb(245, 170, 66);
+  width: 100%;
+  height: auto;
+}
+/* header section starts */
+header{
+  width:100%;
+  height:35px;
+  background-image: url(background.png);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+a{
+  color: white;
+  text-decoration: none;
+  margin-right: 25px;
+}
+nav{
+  margin-right: 10px;
+}
+/* main parts starts here */
+.content{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url(background.png);
+}
+.content h1{
+  margin-top: 35px;
+  color:white;
+  font-size: 50px;
+  margin-bottom: 0px;
+}
+.content h4{
+  margin-top:0px;
+  color:rgba(225,225,225,0.5);
+}
+.input{
+  align-items: center;
+}
+.input input{
+  margin-top: 35px;
+  padding: 5px 75px;
+  border: none;
+
+}
+#button{
+  background-color: orange;
+  padding: 5px 25px;
+  border: none;
+  position: relative;
+  font-family:sans-serif;
+  font-weight:bolder;
+  right: 3px;
+  color:white;
+  cursor: pointer;
+}
+h6{
+  color:rgba(225,225,225,0.9);
+  margin-top: 5px;
+}
+/* sub boxes as a flex view */
+.container {
+  display: flex;
+  margin-top: 10px;
+  justify-content: space-between;
+}
+.container h4{
+  color:white;
+  margin: 10px;
+  background-color:rgba(200,200,200,.2);
+  padding: 25px;
+}
+.container h4:hover{
+  background-color:rgba(200,200,200,.5);
+  cursor:pointer;
+}
+/* remains only footer */
+.footer{
+  letter-spacing: 1px;
+  position: relative;
+  top:160px;
+}
+span{
+  letter-spacing: 0px;
+  font-size: 15px;
+  color:white;
+  font-weight: bold;
+}
